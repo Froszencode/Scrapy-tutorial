@@ -1,0 +1,15 @@
+[project]
+name = "scrappytutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.3.2",
+    "scrapy>=2.13.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
